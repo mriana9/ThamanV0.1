@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ثمن</title>
+    <link rel="shortcut icon" href="assets/img/logo/favicon.ico" type="image/x-icon">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Store Specific Meta -->
+    <meta name="author" content="mariana-algafy">
+    <meta name="description" content="Thaman - Store HTML Template">
+    <meta name="keywords"
+        content="store, shipping, ecommerce, shop, online, products, buy, cart, html, template, e-commerce">
+
+    <!-- Styles Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font/bootstrap-icons.css">
+
+    <!--Swiper CDN Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--AOS CDN Link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--main-header-->
+    <header class="main-header" id="main-header">
+
+        <!-- header-banner -->
+        <div class="header-banner pt-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-9 col-md-12 col-sm-12">
+                        <div class="banner-info">
+                            <span>احتفالاً بعيد الفطر السعيد - كن جزءاً من الاحتفال!</span>
+                            <p>في اليوم العيد السعيد نحتفل بتراثنا وثقافتنا وتاريخنا المجيد. انضم إلينا للاحتفال
+                                بهذا
+                                اليوم
+                                العظيم
+                                وشاركنا الفرح والاعتزاز بعيدنا السعيد. 🌟</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-12 col-sm-12">
+                        <ul class="count-down-list d-flex justify-content-center gap-2 align-items-center">
+                            <li class="count-down-item d-flex flex-column justify-content-center align-items-center">
+                                <span id="seconds">00</span>
+                                <div>ثانية</div>
+                            </li>
+
+                            <li class="count-down-item d-flex flex-column justify-content-center align-items-center">
+                                <span id="minutes">00</span>
+                                <div>دقيقة</div>
+                            </li>
+
+
+                            <li class="count-down-item d-flex flex-column justify-content-center align-items-center">
+                                <span id="hours">00</span>
+                                <div>ساعة</div>
+                            </li>
+
+                            <li class="count-down-item d-flex flex-column justify-content-center align-items-center">
+                                <span id="days">00</span>
+                                <div>يوم</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /header-banner -->
+
+        <!-- navbar-->
+        <nav class="navbar bg-white">
+            <div class="container-fluid d-flex">
+                <!--navbar-logo -->
+                <a href="/index.html" rel="noopener noreferrer" class="logo">
+                    <img src="./assets/img/logo/logo.png" sizes="(max-width: 30px) 30px, 40px" width="30px"
+                        loading="lazy" alt="thaman logo image">
+                    <span>ثمن</span>
+                </a>
+
+                <!--navbar-list-->
+                <ul class="nav-list d-flex justify-content-center align-items-center gap-3 m-0 mx-4">
+                    <li class="nav-item">
+                        <a href="#" rel="noopener noreferrer" title="المدونة">المدونة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" rel="noopener noreferrer" title="سياسية الاستخدام والخصوصية"> سياسية
+                            الاستخدام والخصوصية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" rel="noopener noreferrer" title="سياسية الاستبدال والاسترجاع">
+                            سياسية الاستبدال والاسترجاع</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" rel="noopener noreferrer" title="منتجاتنا">
+                            <i class="bi bi-columns-gap mx-2"></i>منتجاتنا
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- navbar-search-->
+                <div class="search-box">
+                    <form>
+                        <input type="search" class="main-input" placeholder="ابحث عن منتجاتك هنا...">
+                        <button type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+
+                <!-- login-->
+                <div class="user-login">
+                    <button class="login-btn" title="تسجيل الدخول"><i class="bi bi-person"></i></button>
+                </div>
+            </div>
+        </nav>
+        <!-- /navbar-->
+
+        <!-- sm-navbar-->
+        <div class="sm-navbar">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <!--left-side-->
+                <div class="d-flex justify-content-start gap-3 align-items-center">
+                    <!--menu-bar-->
+                    <button class="menu-bar"><i class="bi bi-list"></i></button>
+
+                    <!--navbar-logo -->
+                    <a href="/index.html" rel="noopener noreferrer" class="logo">
+                        <img src="./assets/img/logo/logo.png" sizes="(max-width: 30px) 30px, 30px" width="30px"
+                            loading="lazy" alt="thaman logo image">
+                        <span class="lh-lg">ثمن</span>
+                    </a>
+                </div>
+
+                <!--sm-navbar-icons-->
+                <ul class="sm-navbar-icons p-0 m-0 d-flex justify-content-end gap-3 align-items-center">
+                    <li class="nav-item">
+                        <button class="login-btn" title="تسجيل الدخول"><i class="bi bi-person"></i></button>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" rel="noopener noreferrer" title="منتجاتنا">
+                            <i class="bi bi-columns-gap mx-2"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <button class="sm-search-btn" title="بحث">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </li>
+
+                    <li class="nav-item cart">
+                        <a href="./cart.html" rel="noopener noreferrer" title="السلة">
+                            <i class="bi bi-cart2"></i>
+                            <span class="d-flex justify-content-center align-items-center">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /sm-navbar-->
+
+        <!--lg-navbar-list-->
+        <div class="lg-navbar-list">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <ul class="lg-navbar-item d-flex justify-content-start pe-3 align-items-center gap-3">
+                    <!-- nav-bar-list-data -->
+                </ul>
+
+                <div class="price-card d-flex justify-content-center align-items-center gap-2">
+                    <div class="cart">
+                        <a href="./cart.html" rel="noopener noreferrer" title="السلة">
+                            <i class="bi bi-cart2"></i>
+                            <span class="d-flex justify-content-center align-items-center">0</span>
+                        </a>
+                    </div>
+                    <span class="price">0 $</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/main-header-->
+
+    <!--main-content-->
+    <main class="main-content">
+
+
+
+        <!--cart-content-->
+        <section class="cart-content">
+            <div class="container-fluid">
+                <nav>
+                    <ol class="d-flex gap-2 breadcrumb px-3">
+                        <li class="breadcrumb-item"><a href="./index.html">الرئيسة</a></li>
+                        <span class="text-secondary mx-2">></span>
+                        <li class="breadcrumb-item active" aria-current="page">السلة المشتريات</li>
+                    </ol>
+                </nav>
+
+                <div class="cart-items">
+                    <div class="no-items d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon pt-3"><i class="bi bi-bag"></i></div>
+                        <p class="mt-3">السلة فارغة</p>
+                        <a href="./index.html" class="go-home-btn">عودة للرئيسية</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--cart-content-->
+    </main>
+    <!--/main-content-->
+
+    <!--main-footer-->
+    <footer class="main-footer">
+        <div class="container">
+            <h3>متجر ثمن</h3>
+            <h4>متجر تجريبي | Demo Store</h4>
+
+            <ul class="footer-list d-flex  justify-content-center align-items-center gap-3 m-0 mx-4">
+                <li class="nav-item">
+                    <a href="#" rel="noopener noreferrer" title="المدونة">المدونة</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" rel="noopener noreferrer" title="سياسية الاستخدام والخصوصية"> سياسية
+                        الاستخدام والخصوصية</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" rel="noopener noreferrer" title="سياسية الاستبدال والاسترجاع">
+                        سياسية الاستبدال والاسترجاع</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" rel="noopener noreferrer" title="منتجاتنا">
+                        من نحن
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" rel="noopener noreferrer" title="منتجاتنا">
+                        عن متجرنا
+                    </a>
+                </li>
+            </ul>
+
+            <div class="contact-us py-3 mx-auto">
+                <div class="icon d-flex justify-content-center align-items-center"><i class="bi bi-phone"></i></div>
+                <span>+970 123 4567 89</span>
+            </div>
+
+            <div class="copyright border-top py-3">
+                <p> صنع بإتقان باستخدام | 2025 ❤️ ماريانا الغافي</p>
+            </div>
+        </div>
+    </footer>
+    <!--/main-footer-->
+
+    <!--login modal-->
+    <div class="login-modal-overlay">
+        <div class="login-modal p-3 d-flex justify-content-center align-items-center ">
+            <div class="login-modal-header">
+                <button class="close-btn"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="login-modal-body d-flex flex-column justify-content-center align-items-center">
+                <div class="icon border d-flex justify-content-center align-items-center rounded-circle"><i
+                        class="bi bi-person"></i></div>
+                <h2 class="title">تسجيل الدخول</h2>
+                <form>
+                    <label class="login-label"> البريد الالكتروني</label>
+                    <input type="text" class="main-input" placeholder="your@email.com">
+                    <button class="main-btn">دخول</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--/login modal-->
+
+    <!--search-modal-->
+    <div class="search-modal-overlay">
+        <div class="search-modal">
+            <form class="modal-search-box">
+                <button> <i class="bi bi-search"></i></button>
+                <input type="search" class="main-input" placeholder="ادخل كلمة البحث ...">
+            </form>
+        </div>
+    </div>
+    <!--/search-modal-->
+
+    <!--menu-bar-offcanvas-->
+    <div class="menu-bar-offcanvas-overlay">
+        <div class="menu-bar-offcanvas">
+            <div class="menu-bar-offcanvas-header border-bottom d-flex justify-content-between align-items-center">
+                <h3>القائمة الرئيسة</h3>
+                <button class="offcanvas-close-btn"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="menu-bar-offcanvas-body p-3">
+                <ul class="menu-bar-offcanvas-list">
+                    <!-- menu-bar-items-data -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/menu-bar-offcanvas-->
+
+    <!--setting-->
+    <div class="setting-offcanvas p-3">
+        <button class="setting setting-btn d-flex justify-content-center align-items-center"><i
+                class="bi bi-gear-fill"></i></button>
+
+        <div class="setting-offcanvas-header border-bottom d-flex align-items-center justify-content-between">
+            <button class="close-setting-btn d-flex justify-content-center align-items-center"><i
+                    class="bi bi-x-lg"></i></button>
+            <h3> <i class="bi bi-gear-fill"></i> اعدادات عامة</h3>
+        </div>
+        <div class="setting-offcanvas-body py-3">
+            <h3> <i class="bi bi-palette"></i> مظهر الثيم</h3>
+            <span class="sub-title">اختر الوضع النهاري او الليلي</span>
+
+            <div class="theme-type row border-bottom pb-3">
+                <div class="theme col-md-6">
+                    <div class="image">
+                        <img src="./assets/img/hero/light.PNG" loading="lazy" alt="light image">
+                    </div>
+                    <div>
+                        <input type="radio" checked class="light-btn" name="theme-type" id="light">
+                        <label class="form-check-label" for="light">
+                            الوضع النهاري
+                        </label>
+                    </div>
+                </div>
+
+                <div class="theme col-md-6">
+                    <div class="image">
+                        <img src="./assets/img/hero/dark.PNG" loading="lazy" alt="dark image">
+                    </div>
+                    <div>
+                        <input type="radio" class="dark-btn" name="theme-type" id="dark">
+                        <label class="form-check-label" for="dark">
+                            الوضع الليلي
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="theme-color py-3">
+                <h3> <i class="bi bi-brush"></i>لون الثيم</h3>
+                <ul class="colors">
+                    <li data-color="#ffa947" style="background-color: #ffa947;"></li>
+                    <li data-color="#7ce38b" style="background-color: #7ce38b;"></li>
+                    <li data-color="#77bdfb" style="background-color: #77bdfb;"></li>
+                    <li data-color="#cea5fb" style="background-color: #cea5fb;"></li>
+                    <li data-color="#ccda07" style="background-color: #ccda07;"></li>
+                    <li data-color="#4a56ff" style="background-color: #4a56ff;"></li>
+                    <li data-color="#ff4ade" style="background-color: #ff4ade;"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/setting-->
+
+    <!--Swiper CDN Link-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--AOS CDN Link-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./assets/js/bootstrap.min.js" type="module"></script>
+
+    <!-- JS Link -->
+    <script src="./assets/js/theme.js" type="module"></script>
+
+</body>
+
+</html>

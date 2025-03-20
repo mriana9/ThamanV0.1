@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ثمن</title>
+    <link rel="shortcut icon" href="assets/img/logo/favicon.ico" type="image/x-icon">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Store Specific Meta -->
+    <meta name="author" content="mariana-algafy">
+    <meta name="description" content="Thaman - Store HTML Template">
+    <meta name="keywords"
+        content="store, shipping, ecommerce, shop, online, products, buy, cart, html, template, e-commerce">
+
+    <!-- Styles Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font/bootstrap-icons.css">
+
+    <!--Swiper CDN Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--AOS CDN Link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--main-header-->
+    <header class="main-header" id="main-header">
+
+        <!-- header-banner -->
+        <div class="header-banner pt-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-9 col-md-12 col-sm-12">
+                        <div class="banner-info">
+                            <span>احتفالاً بعيد الفطر السعيد - كن جزءاً من الاحتفال!</span>
+                            <p>في اليوم العيد السعيد نحتفل بتراثنا وثقافتنا وتاريخنا المجيد. انضم إلينا للاحتفال
+                                بهذا
+                                اليوم
+                                العظيم
+                                وشاركنا الفرح والاعتزاز بعيدنا السعيد. 🌟</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-12 col-sm-12">
+                        <ul class="count-down-list d-flex justify-content-center gap-2 align-items-center">
+                            <li class="count-down-item d-flex flex-column justify-content-center align-items-center">
+                                <span id="seconds">00</span>
+                                <div>ثانية</div>
+                            </li>
+
+                            <li class="count-down-item d-flex flex-column justify-content-center align-items-center">
+                                <span id="minutes">00</span>
+                                <div>دقيقة</div>
+                            </li>
+
+
+                            <li class="count-down-item d-flex flex-column justify-content-center align-items-center">
+                                <span id="hours">00</span>
+                                <div>ساعة</div>
+                            </li>
+
+                            <li class="count-down-item d-flex flex-column justify-content-center align-items-center">
+                                <span id="days">00</span>
+                                <div>يوم</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /header-banner -->
+
+        <!-- navbar-->
+        <nav class="navbar bg-white">
+            <div class="container-fluid d-flex">
+                <!--navbar-logo -->
+                <a href="/index.html" rel="noopener noreferrer" class="logo">
+                    <img src="./assets/img/logo/logo.png" sizes="(max-width: 30px) 30px, 40px" width="30px"
+                        loading="lazy" alt="thaman logo image">
+                    <span>ثمن</span>
+                </a>
+
+                <!--navbar-list-->
+                <ul class="nav-list d-flex justify-content-center align-items-center gap-3 m-0 mx-4">
+                    <li class="nav-item">
+                        <a href="#" rel="noopener noreferrer" title="المدونة">المدونة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" rel="noopener noreferrer" title="سياسية الاستخدام والخصوصية"> سياسية
+                            الاستخدام والخصوصية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" rel="noopener noreferrer" title="سياسية الاستبدال والاسترجاع">
+                            سياسية الاستبدال والاسترجاع</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" rel="noopener noreferrer" title="منتجاتنا">
+                            <i class="bi bi-columns-gap mx-2"></i>منتجاتنا
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- navbar-search-->
+                <div class="search-box">
+                    <form>
+                        <input type="search" class="main-input" placeholder="ابحث عن منتجاتك هنا...">
+                        <button type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+
+                <!-- login-->
+                <div class="user-login">
+                    <button class="login-btn" title="تسجيل الدخول"><i class="bi bi-person"></i></button>
+                </div>
+            </div>
+        </nav>
+        <!-- /navbar-->
+
+        <!-- sm-navbar-->
+        <div class="sm-navbar">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <!--left-side-->
+                <div class="d-flex justify-content-start gap-3 align-items-center">
+                    <!--menu-bar-->
+                    <button class="menu-bar"><i class="bi bi-list"></i></button>
+
+                    <!--navbar-logo -->
+                    <a href="/index.html" rel="noopener noreferrer" class="logo">
+                        <img src="./assets/img/logo/logo.png" sizes="(max-width: 30px) 30px, 30px" width="30px"
+                            loading="lazy" alt="thaman logo image">
+                        <span class="lh-lg">ثمن</span>
+                    </a>
+                </div>
+
+                <!--sm-navbar-icons-->
+                <ul class="sm-navbar-icons p-0 m-0 d-flex justify-content-end gap-3 align-items-center">
+                    <li class="nav-item">
+                        <button class="login-btn" title="تسجيل الدخول"><i class="bi bi-person"></i></button>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" rel="noopener noreferrer" title="منتجاتنا">
+                            <i class="bi bi-columns-gap mx-2"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <button class="sm-search-btn" title="بحث">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </li>
+
+                    <li class="nav-item cart">
+                        <a href="./cart.html" rel="noopener noreferrer" title="السلة">
+                            <i class="bi bi-cart2"></i>
+                            <span class="d-flex justify-content-center align-items-center">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /sm-navbar-->
+
+        <!--lg-navbar-list-->
+        <div class="lg-navbar-list">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <ul class="lg-navbar-item d-flex justify-content-start pe-3 align-items-center gap-3">
+                    <!-- nav-bar-list-data -->
+                </ul>
+
+                <div class="price-card d-flex justify-content-center align-items-center gap-2">
+                    <div class="cart">
+                        <a href="./cart.html" rel="noopener noreferrer" title="السلة">
+                            <i class="bi bi-cart2"></i>
+                            <span class="d-flex justify-content-center align-items-center">0</span>
+                        </a>
+                    </div>
+                    <span class="price">0 $</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/main-header-->
+
+    <!--main-content-->
+    <main class="main-content">
+        <!--hero-section-->
+        <section class="hero-section">
+            <div class="swiper mySwiper hero-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/img/hero/hero-slide.png" loading="lazy" alt="hero image">
+                        <div class="content">
+                            <div class="container" data-aos="fade-right" data-aos-duration="3500">
+                                <h3>انضم الى
+                                    الأناقة مع أحدث مجموعاتنا, جدد دولاب ملابسك بقطع عصرية تمزج بين الراحة
+                                    والموضة
+                                    دون عناء</h3>
+                                <p>بدءا من
+                                    الفساتين الأنيقة وحتى الأساسيات المتنوعة, لدينا ما يناسب كل مناسبة. أكتشف
+                                    مظهرك
+                                    المميز اليوم</p>
+                                <a href="#" class="main-btn"> تسوق الان</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-light">
+                        <video autoplay loop preload="auto">
+                            <source
+                                src="https://dl.dropboxusercontent.com/scl/fi/nq0rw3y0w3rj3vws9p1oh/7764692-hd_1366_720_25fps.mp4?rlkey=n3j2snvpbb7ubeawvmt7ddmvf&st=ni4e58yr&dl=0?raw=1"
+                                type="video/mp4">
+                        </video>
+
+                        <div class="content" data-aos="fade-left" data-aos-duration="4000">
+                            <div class="container">
+                                <h3>انضم الى الأناقة مع أحدث مجموعاتنا.</h3>
+                                <p>بدءا من
+                                    الفساتين الأنيقة وحتى الأساسيات المتنوعة, لدينا ما يناسب كل مناسبة. أكتشف
+                                    مظهرك
+                                    المميز اليوم</p>
+                                <a href="#" class="main-btn"> اكتشف الان</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button swiper-button-next"></div>
+                <div class="swiper-button swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!--/hero-section-->
+
+        <!-- Hero Banner -->
+        <section class="hero-banner py-3">
+            <div class="scrolling-news">
+                <div class="news-item">
+                    <img src="./assets/img/icon/dis-icon.png" alt="discount icon">
+                    <span>تخفيضات بمناسبة يوم العلم</span>
+                </div>
+                <div class="news-item">
+                    <img src="./assets/img/icon/fi-icon.png" alt="fire icon">
+                    <span>خصومات تصل الى 15% على التشيرتات</span>
+                </div>
+                <div class="news-item">
+                    <img src="./assets/img/icon/dis-icon.png" alt="discount icon">
+                    <span>عروض مميزة لفترة محدودة</span>
+                </div>
+                <div class="news-item">
+                    <img src="./assets/img/icon/fi-icon.png" alt="fire icon">
+                    <span>خصومات إضافية على الطلبات الكبيرة</span>
+                </div>
+
+                <!-- Duplicate content for smooth looping -->
+                <div class="news-item">
+                    <img src="./assets/img/icon/dis-icon.png" alt="discount icon">
+                    <span>تخفيضات بمناسبة يوم العلم</span>
+                </div>
+                <div class="news-item">
+                    <img src="./assets/img/icon/fi-icon.png" alt="fire icon">
+                    <span>خصومات تصل الى 15% على التشيرتات</span>
+                </div>
+                <div class="news-item">
+                    <img src="./assets/img/icon/dis-icon.png" alt="discount icon">
+                    <span>عروض مميزة لفترة محدودة</span>
+                </div>
+                <div class="news-item">
+                    <img src="./assets/img/icon/fi-icon.png" alt="fire icon">
+                    <span>خصومات إضافية على الطلبات الكبيرة</span>
+                </div>
+            </div>
+        </section>
+        <!-- /Hero Banner -->
+
+        <!--category-garally-->
+        <section class="category-gallery pb-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="img-box video-box">
+                            <video autoplay loop preload="auto">
+                                <source
+                                    src="https://dl.dropboxusercontent.com/scl/fi/j7yuq5tywf7ckxhkeo229/8580874-hd_720_1280_30fps.mp4?rlkey=5rsemto2ivy8wr9nmfs3bbmav&st=n8zftq0y&dl=0?raw=1"
+                                    type="video/mp4">
+                            </video>
+
+                            <h3 class="title">مرحباً بكم في ثمن، الوجهة الأولى للتسوق العصري والمتميز.</h3>
+                            <div class="info">
+                                <p>نحن نفخر بتقديم مجموعة واسعة من الملابس التي تناسب جميع الأذواق والفئات العمرية.</p>
+                                <a href="#" class="main-btn"> اكتشف متجر ثمن</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="img-box">
+                            <img src="./assets/img/gallery/gallery-img2.png" loading="lazy" alt="gallery-image">
+                            <div class="category-info">
+                                <h3>تيشرتات رجالية</h3>
+                                <p>تتنوع في التصميم والنسيج لتناسب مختلف الأذواق</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="img-box">
+                            <img src="./assets/img/gallery/gallery-img1.png" loading="lazy" alt="gallery-image">
+                            <div class="category-info">
+                                <h3>ساعات يد</h3>
+                                <p>هي إكسسوار يعكس الذوق الشخصي ويضيف لمسة من الأناقة والرقي.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="img-box">
+                            <img src="./assets/img/gallery/gallery-img5.png" loading="lazy" alt="gallery-image">
+                            <div class="category-info">
+                                <h3>نظارات شمسية </h3>
+                                <p>ليست فقط إكسسوارًا مكملاً للإطلالة، بل هي ضرورة لحماية العينين.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="img-box">
+                            <img src="./assets/img/gallery/gallery-img4.png" loading="lazy" alt="gallery-image">
+                            <div class="category-info">
+                                <h3>أحذية نسائية</h3>
+                                <p>تأتي بتصاميم متنوعة تتناسب مع مختلف الأذواق.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="img-box">
+                            <img src="./assets/img/gallery/gallery-img3.png" loading="lazy" alt="gallery-image">
+                            <div class="category-info">
+                                <h3> جاكيتات رجالية</h3>
+                                <p>تعبر عن الأسلوب الشخصي وتضفي لمسة من التميز.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/category-garally-->
+
+        <!--categort-cards-->
+        <section class="category-cards">
+            <div class="container-fluid">
+                <div class="row all-category-cards">
+                    <!--all-category-cards-data-->
+                </div>
+            </div>
+        </section>
+        <!--/categort-cards-->
+
+        <!--master-banner-->
+        <section class="master-banner">
+            <div class="container-fluid">
+                <div class="banner-box d-flex flex-column justify-content-center align-items-center">
+                    <div class="info text-center">
+                        <h4>الكلاسيكية أبدا الخروج من النمط</h4>
+                        <p>اكتشف مجموعة الملابس الأنيقة لدينا التي تم تصميمها لتلبية كافة احتياجاتك اليومية</p>
+                        <a href="#" class="main-btn"> تسوق الان</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="sub-banner-box sub-banner-box-bg-1 d-flex align-items-center">
+                            <img src="./assets/img/banners/sub-banner1.png" alt=" banner">
+
+                            <div class="info">
+                                <h4>الكلاسيكية أبدا الخروج من النمط</h4>
+                                <p>اكتشف مجموعة الملابس الأنيقة لدينا التي تم تصميمها لتلبية كافة احتياجاتك اليومية</p>
+                                <a href="#" class="main-btn"> تسوق الان</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="sub-banner-box sub-banner-box-bg-2 d-flex align-items-center">
+                            <img src="./assets/img/banners/sub-banner2.png" alt=" banner">
+
+                            <div class="info">
+                                <h4>الكلاسيكية أبدا الخروج من النمط</h4>
+                                <p>اكتشف مجموعة الملابس الأنيقة لدينا التي تم تصميمها لتلبية كافة احتياجاتك اليومية</p>
+                                <a href="#" class="main-btn"> تسوق الان</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/master-banner-->
+
+        <!--best-products-->
+        <section class="best-products">
+            <div class="container-fluid">
+                <h2 class="master-title">تجدد وتألق مع تشكيلتنا</h2>
+                <span class="sub-title">اختر من بين أحدث التصاميم والأنماط العصرية التي تضمن لك إطلالة مميزة في كل
+                    مناسبة.</span>
+
+                <div class="best-products-card">
+                    <div class="row product-container  ">
+                        <!-- Best prodtact data -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/best-products-->
+
+        <!--our-services-->
+        <section class="our-services my-5 py-3">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-lg-6 right-side">
+                        <div class="box-info">
+                            <h3>في متجر ثمن, نحن نفخر بتقديم تجربة تسوق لا مثيل لها</h3>
+                            <p>اكتشف كنزا من الملابس الانيقة من خلال ميزات التصفح لدينا, مما يسمح لك بالتنقل بسهولة عبر
+                                مجموعتنا المتنوعة</p>
+                        </div>
+
+                        <div class="our-services-cards">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="card-box d-flex flex-column justify-content-center align-items-center">
+                                        <img class="icon" src="./assets/img/our-services/service1.gif"
+                                            alt="service1 icon">
+                                        <h5>أفضل الأسعار</h5>
+                                        <p>ستمتع بالعروض الحصرية والأسعار الأفضل في السوق عند تسوقك معنا</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="card-box d-flex flex-column justify-content-center align-items-center">
+                                        <img class="icon" src="./assets/img/our-services/service2.gif"
+                                            alt="service1 icon">
+                                        <h5>أفضل الأسعار</h5>
+                                        <p>ستمتع بالعروض الحصرية والأسعار الأفضل في السوق عند تسوقك معنا</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="card-box d-flex flex-column justify-content-center align-items-center">
+                                        <img class="icon" src="./assets/img/our-services/service3.gif"
+                                            alt="service1 icon">
+                                        <h5>أفضل الأسعار</h5>
+                                        <p>ستمتع بالعروض الحصرية والأسعار الأفضل في السوق عند تسوقك معنا</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="box-image">
+                            <img src="./assets/img/our-services/services-img.png" loading="lazy" alt="our services img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/our-services-->
+
+        <!--trending-products-->
+        <section class="trending-products mb-5">
+            <div class="container-fluid">
+
+                <h2 class="master-title">تجدد وتألق مع تشكيلتنا</h2>
+                <span class="sub-title">اختر من بين أحدث التصاميم والأنماط العصرية التي تضمن لك إطلالة مميزة في كل
+                    مناسبة.</span>
+
+                <div class="video-banner d-flex justify-content-start align-items-center">
+                    <div class="info">
+                        <h3>عروض خاصة لا تُفوت على أحدث صيحات الموضة!</h3>
+                        <p>استمتع بخصومات تصل إلى 50% على تشكيلاتنا الجديدة من الملابس. اغتنم الفرصة لتجديد خزانتك بأفضل
+                            الأسعار! عروض لفترة محدودة، تسوق الآن ولا تفوت الفرصة!</p>
+                        <a href="#" class="main-btn"> اكتشف الان</a>
+                    </div>
+
+                    <video autoplay loop>
+                        <source
+                            src="https://dl.dropboxusercontent.com/scl/fi/z3ubibunavhxhbbeedylr/5743177-hd_1366_720_25fps.mp4?rlkey=3diaroib5wgmwkw7vttqmfxs0&st=wwv09tzx&dl=0?raw=1"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="best-products-card">
+                    <div class="row trending-product-container">
+                        <!-- trending prodtact data -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/trending-products-->
+
+        <!--featured-products-->
+        <section class="featured-products mb-5">
+            <div class="container-fluid">
+                <h2 class="master-title">تصنيفات مميزة</h2>
+                <span class="sub-title">تعرف على كيفية تنمية أعمالك من خلال مشورة الخبراء لدينا</span>
+
+                <div class="featured-products-cards">
+                    <div class="row featured-product-container">
+                        <!-- featured products data -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/featured-products-->
+
+        <!--products-slider-->
+        <section class="products-slider mb-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="products-slider-video">
+                        <video autoplay loop preload="auto">
+                            <source
+                                src="https://dl.dropboxusercontent.com/scl/fi/7f5sfvtodwp3e7y362yaz/5520097-hd_720_1280_30fps.mp4?rlkey=kisafjlk2z08kafoiuoka1dsl&st=4e4hcbsc&dl=0?raw=1"
+                                type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="swiper mySwiper products-slider">
+                        <div class="swiper-wrapper products-slider-container">
+                            <!-- product slider data -->
+                        </div>
+                        <div class="swiper-button swiper-button-next"></div>
+                        <div class="swiper-button swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/products-slider-->
+
+        <!--slider-banner-->
+        <section class="slider-banner mb-5">
+            <div class="container-fluid">
+                <div class="slider-banner-box">
+                    <div class="swiper mySwiper banner-slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./assets/img/banners/slider-banner-img1.png" alt="banner-slide-img">
+                                <div class="info" data-aos="fade-left" data-aos-duration="2000">
+                                    <h3>عروض خاصة لا تُفوت على أحدث صيحات الموضة!</h3>
+                                    <p>استمتع بخصومات تصل إلى 50% على تشكيلاتنا الجديدة من الملابس. اغتنم الفرصة لتجديد
+                                        خزانتك بأفضل الأسعار! عروض لفترة محدودة، تسوق الآن ولا تفوت الفرصة!</p>
+                                    <a href="#" class="main-btn"> تسوق الان</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-aos="fade-left" data-aos-duration="2500">
+                                <img src="./assets/img/banners/slider-banner-img2.png" alt="banner-slide-img">
+                                <div class="info">
+                                    <h3>عروض خاصة لا تُفوت على أحدث صيحات الموضة!</h3>
+                                    <p>استمتع بخصومات تصل إلى 50% على تشكيلاتنا الجديدة من الملابس. اغتنم الفرصة لتجديد
+                                        خزانتك بأفضل الأسعار! عروض لفترة محدودة، تسوق الآن ولا تفوت الفرصة!</p>
+                                    <a href="#" class="main-btn"> تسوق الان</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button swiper-button-next"></div>
+                        <div class="swiper-button swiper-button-prev"></div>
+                        <div class="swiper-pagination "></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/slider-banner-->
+
+        <!--summer-offers-->
+        <!-- <section class="summer-offers mb-5">
+            <div class="container-fluid ">
+                <div class="info d-flex align-items-center justify-content-start">
+                    <div>
+                        <span>عروض موسم الصيف</span>
+                        <h3>عرض خاص لمدة محدودة - احصل على أحدث صيحات الموضة بأسعار لا تقاوم</h3>
+                        <p class="pt-3">لا تفوتوا هذا العرض الخاص الذي يمتد لفترة محدودة فقط! احصلوا على أحدث الأزياء
+                            والصيحات بأسعار
+                            لا تقاوم.</p>
+                        <a href="#" class="main-btn"> اكتشف الان</a>
+                    </div>
+                </div>
+
+                <div class="image">
+                    <img src="./assets/img/summer-offers/summer-offer-img1.png" loading="lazy" alt="summer-offers">
+                </div>
+            </div>
+        </section> -->
+
+        <section class="summer-offers-2 mb-5">
+            <div class="container-fluid ">
+
+                <div class="image">
+                    <img src="./assets/img/summer-offers/summer-offer-img2.png" loading="lazy" alt="summer-offers">
+                </div>
+                <div class="info d-flex align-items-center justify-content-start">
+                    <div>
+                        <span>عروض موسم الصيف</span>
+                        <h3>عرض خاص لمدة محدودة - احصل على أحدث صيحات الموضة بأسعار لا تقاوم</h3>
+                        <p class="pt-3">لا تفوتوا هذا العرض الخاص الذي يمتد لفترة محدودة فقط! احصلوا على أحدث الأزياء
+                            والصيحات بأسعار
+                            لا تقاوم.</p>
+                        <a href="#" class="main-btn"> اكتشف الان</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/sammar-offer-->
+
+        <!--gallery-banner-->
+        <section class="gallery-banner mb-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="gallery-banner-box h-75">
+                            <img src="./assets/img/banners/gellary-img1.png" loading="lazy" alt="gallery-banner-img">
+                        </div>
+                        <div class="gallery-banner-box h-25 bg-yellow">
+                            <h3>اكتشف تشكيلة الجاكيتات الأحدث لدينا!</h3>
+                            <p>مجموعتنا الجديدة من الجاكيتات التي تجمع بين الأناقة والراحة، وتصميمات تناسب جميع الأذواق
+                                والمناسبات.</p>
+                            <a href="#" class="main-btn"> اكتشف الان</a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="gallery-banner-box h-25">
+                            <h3>اكتشف تشكيلة الجاكيتات الأحدث لدينا!</h3>
+                            <p>مجموعتنا الجديدة من الجاكيتات التي تجمع بين الأناقة والراحة، وتصميمات تناسب جميع الأذواق
+                                والمناسبات.</p>
+                            <a href="#" class="main-btn"> اكتشف الان</a>
+                        </div>
+                        <div class="gallery-banner-box h-75">
+                            <img src="./assets/img/banners/gallery-img2.png" loading="lazy" alt="gallery-banner-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="gallery-banner-box h-75">
+                            <img src="./assets/img/banners/gallery-img3.png" loading="lazy" alt="gallery-banner-img">
+                        </div>
+                        <div class="gallery-banner-box h-25 bg-yellow">
+                            <h3>اكتشف تشكيلة الجاكيتات الأحدث لدينا!</h3>
+                            <p>مجموعتنا الجديدة من الجاكيتات التي تجمع بين الأناقة والراحة، وتصميمات تناسب جميع الأذواق
+                                والمناسبات.</p>
+                            <a href="#" class="main-btn"> اكتشف الان</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/gellary-banner-->
+
+        <!--product-banner-->
+        <section class="product-banner mb-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="product-banner-images">
+                            <div class="d-flex gap-2">
+                                <div class=" d-flex align-items-center">
+                                    <div class="image-box h-25">
+                                        <img src="./assets/img/banners/product-banner-img3.png" loading="lazy"
+                                            alt="product-banner-img">
+                                    </div>
+                                </div>
+
+                                <div class=" d-flex align-items-center">
+                                    <div class="image-box h-50">
+                                        <img src="./assets/img/banners/product-banner-img2.png" loading="lazy"
+                                            alt="product-banner-img">
+                                    </div>
+                                </div>
+
+                                <div class=" d-flex align-items-center">
+                                    <div class="image-box h-75">
+                                        <img src="./assets/img/banners/product-banner-img1.png" loading="lazy"
+                                            alt="product-banner-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>اشترِ قطعة واحصل على الثانية بنصف السعر! 🎉</h3>
+                        <p>عند شراء أي قطعة من تشكيلتنا الرائعة، ستحصل على القطعة الثانية بنصف السعر! العرض يشمل جميع
+                            الفئات: الملابس، الأحذية، والإكسسوارات. لا تفوت فرصة الاستفادة من هذا العرض المميز لإضفاء
+                            لمسة جديدة على إطلالتك.</p>
+                        <ul class="timer d-flex align-items-center justify-content-center gap-3">
+                            <li>396</li>
+                            <li>20</li>
+                            <li>45</li>
+                            <li>16</li>
+                        </ul>
+                        <a href="#" class="main-btn"> اكتشف الان</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/product-banner-->
+
+        <!--products-tabs-->
+        <section class="products-tabs mb-5">
+            <div class="container-fluid d-flex justify-content-end">
+                <div class="products-tabs-content d-flex justify-content-center align-items-center">
+                    <div class="tab-content col-lg-4 position-relative" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-menClothes" role="tabpanel"
+                            aria-labelledby="v-pills-menClothes-tab">
+                            <div class="tab-image">
+                                <img src="./assets/img/tabs/tab-img1.png" alt="tab-image1">
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-womenClothes" role="tabpanel"
+                            aria-labelledby="v-pills-womenClothes-tab">
+                            <div class="tab-image">
+                                <img src="./assets/img/tabs/tab-img2.png" alt="tab-image1">
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-handwatch" role="tabpanel"
+                            aria-labelledby="v-pills-handwatch-tab">
+                            <div class="tab-image">
+                                <img src="./assets/img/tabs/tab-img3.png" alt="tab-image1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav flex-column nav-pills col-lg-8" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <h2> اكتشف تشكيلتنا المتنوعة من الأزياء الأنيقة! </h2>
+                        <p>مرحبًا بك في متجرنا الإلكتروني، حيث نقدم لك مجموعة واسعة من الأزياء التي تناسب جميع الأذواق
+                            والمناسبات. استمتع بتجربة تسوق فريدة واستعرض تشكيلاتنا المتنوعة التي تضم أحدث صيحات الموضة
+                        </p>
+                        <button class="nav-link active d-flex flex-column text-end" id="v-pills-menClothes-tab"
+                            data-bs-toggle="pill" data-bs-target="#v-pills-menClothes" type="button" role="tab"
+                            aria-controls="v-pills-menClothes" aria-selected="true">
+                            <span class="title">الملابس الرجالية</span>
+                            <span class="sub-title">تبويب يشمل أحدث صيحات الملابس الرجالية بما في ذلك البدل والقمصان
+                                والجينز
+                                والسترات.</span>
+                        </button>
+                        <button class="nav-link d-flex flex-column text-end" id="v-pills-womenClothes-tab"
+                            data-bs-toggle="pill" data-bs-target="#v-pills-womenClothes" type="button" role="tab"
+                            aria-controls="v-pills-womenClothes" aria-selected="false">
+                            <span class="title">الملابس النسائية </span>
+                            <span class="sub-title">تبويب يعرض مجموعة من الملابس النسائية من الفساتين والاحذية.</span>
+                        </button>
+                        <button class="nav-link d-flex flex-column text-end" id="v-pills-handwatch-tab"
+                            data-bs-toggle="pill" data-bs-target="#v-pills-handwatch" type="button" role="tab"
+                            aria-controls="v-pills-handwatch" aria-selected="false">
+                            <span class="title"> ساعة يد </span>
+                            <span class="sub-title">تبويب يعرض ساعات رسمية وساعات رياضية وساعات فاخرة.</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/products-tabs-->
+
+        <!--our-brands-->
+        <section class="questions">
+            <div class="container px-5">
+                <h3 class="master-title text-center">مرحباً بكم في قسم الأسئلة الشائعة</h3>
+                <p class="sub-title text-center">هنا ستجدون إجابات عن أكثر الأسئلة شيوعاً حول خدماتنا ومنتجاتنا.</p>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                                هل يمكنني طلب منتج غير متوفر في الموقع؟
+
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                نعم، يمكنك طلب منتج غير متوفر من خلال خدمة "الطلبات الخاصة". سنبذل جهدنا لتوفير المنتج
+                                المطلوب.
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                ما هي أفضل طريقة للعناية بالملابس التي أشتريها؟
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                نقدم إرشادات العناية الخاصة بكل نوع من الملابس في وصف المنتج. يمكنك أيضاً زيارة صفحة
+                                "إرشادات العناية بالملابس" للحصول على نصائح عامة حول كيفية الحفاظ على ملابسك في أفضل
+                                حالة.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                كيف يمكنني تقديم ملاحظات حول تجربتي في التسوق؟
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                نحن نرحب بجميع ملاحظاتكم واقتراحاتكم لتحسين خدماتنا. يمكنك تقديم ملاحظاتك من خلال نموذج
+                                الاتصال أو تقييم المنتجات بعد الشراء.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!--/main-content-->
+
+    <!--main-footer-->
+    <footer class="main-footer">
+        <div class="container">
+            <h3>متجر ثمن</h3>
+            <h4>متجر تجريبي | Demo Store</h4>
+
+            <ul class="footer-list d-flex  justify-content-center align-items-center gap-3 m-0 mx-4">
+                <li class="nav-item">
+                    <a href="#" rel="noopener noreferrer" title="المدونة">المدونة</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" rel="noopener noreferrer" title="سياسية الاستخدام والخصوصية"> سياسية
+                        الاستخدام والخصوصية</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" rel="noopener noreferrer" title="سياسية الاستبدال والاسترجاع">
+                        سياسية الاستبدال والاسترجاع</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" rel="noopener noreferrer" title="منتجاتنا">
+                        من نحن
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" rel="noopener noreferrer" title="منتجاتنا">
+                        عن متجرنا
+                    </a>
+                </li>
+            </ul>
+
+            <div class="contact-us py-3 mx-auto">
+                <div class="icon d-flex justify-content-center align-items-center"><i class="bi bi-phone"></i></div>
+                <span>+970 123 4567 89</span>
+            </div>
+
+            <div class="copyright border-top py-3">
+                <p> صنع بإتقان باستخدام | 2025 ❤️ ماريانا الغافي</p>
+            </div>
+        </div>
+    </footer>
+    <!--/main-footer-->
+
+    <!--login modal-->
+    <div class="login-modal-overlay">
+        <div class="login-modal p-3 d-flex justify-content-center align-items-center ">
+            <div class="login-modal-header">
+                <button class="close-btn"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="login-modal-body d-flex flex-column justify-content-center align-items-center">
+                <div class="icon border d-flex justify-content-center align-items-center rounded-circle"><i
+                        class="bi bi-person"></i></div>
+                <h2 class="title">تسجيل الدخول</h2>
+                <form>
+                    <label class="login-label"> البريد الالكتروني</label>
+                    <input type="text" class="main-input" placeholder="your@email.com">
+                    <button class="main-btn">دخول</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--/login modal-->
+
+    <!--search-modal-->
+    <div class="search-modal-overlay">
+        <div class="search-modal">
+            <form class="modal-search-box">
+                <button> <i class="bi bi-search"></i></button>
+                <input type="search" class="main-input" placeholder="ادخل كلمة البحث ...">
+            </form>
+        </div>
+    </div>
+    <!--/search-modal-->
+
+    <!--menu-bar-offcanvas-->
+    <div class="menu-bar-offcanvas-overlay">
+        <div class="menu-bar-offcanvas">
+            <div class="menu-bar-offcanvas-header border-bottom d-flex justify-content-between align-items-center">
+                <h3>القائمة الرئيسة</h3>
+                <button class="offcanvas-close-btn"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="menu-bar-offcanvas-body p-3">
+                <ul class="menu-bar-offcanvas-list">
+                    <!-- menu-bar-items-data -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/menu-bar-offcanvas-->
+
+    <!--setting-->
+    <div class="setting-offcanvas p-3">
+        <button class="setting setting-btn d-flex justify-content-center align-items-center"><i
+                class="bi bi-gear-fill"></i></button>
+
+        <div class="setting-offcanvas-header border-bottom d-flex align-items-center justify-content-between">
+            <button class="close-setting-btn d-flex justify-content-center align-items-center"><i
+                    class="bi bi-x-lg"></i></button>
+            <h3> <i class="bi bi-gear-fill"></i> اعدادات عامة</h3>
+        </div>
+        <div class="setting-offcanvas-body py-3">
+            <h3> <i class="bi bi-palette"></i> مظهر الثيم</h3>
+            <span class="sub-title">اختر الوضع النهاري او الليلي</span>
+
+            <div class="theme-type row border-bottom pb-3">
+                <div class="theme col-md-6">
+                    <div class="image">
+                        <img src="./assets/img/hero/light.PNG" loading="lazy" alt="light image">
+                    </div>
+                    <div>
+                        <input type="radio" checked class="light-btn" name="theme-type" id="light">
+                        <label class="form-check-label" for="light">
+                            الوضع النهاري
+                        </label>
+                    </div>
+                </div>
+
+                <div class="theme col-md-6">
+                    <div class="image">
+                        <img src="./assets/img/hero/dark.PNG" loading="lazy" alt="dark image">
+                    </div>
+                    <div>
+                        <input type="radio" class="dark-btn" name="theme-type" id="dark">
+                        <label class="form-check-label" for="dark">
+                            الوضع الليلي
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="theme-color py-3">
+                <h3> <i class="bi bi-brush"></i>لون الثيم</h3>
+                <ul class="colors">
+                    <li data-color="#ffa947" style="background-color: #ffa947;"></li>
+                    <li data-color="#7ce38b" style="background-color: #7ce38b;"></li>
+                    <li data-color="#77bdfb" style="background-color: #77bdfb;"></li>
+                    <li data-color="#cea5fb" style="background-color: #cea5fb;"></li>
+                    <li data-color="#ccda07" style="background-color: #ccda07;"></li>
+                    <li data-color="#4a56ff" style="background-color: #4a56ff;"></li>
+                    <li data-color="#ff4ade" style="background-color: #ff4ade;"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/setting-->
+
+    <!--Swiper CDN Link-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--AOS CDN Link-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./assets/js/bootstrap.min.js" type="module"></script>
+
+    <!-- JS Link -->
+    <script src="./assets/js/theme.js" type="module"></script>
+
+</body>
+
+</html>

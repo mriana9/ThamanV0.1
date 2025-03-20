@@ -1,0 +1,21 @@
+Breaking it Down:
+. Milliseconds in a Second = 1000
+. Milliseconds in a Minute = 1000 * 60 (60 seconds)
+. Milliseconds in an Hour = 1000 * 60 * 60 (60 minutes)
+. Milliseconds in a Day = 1000 * 60 * 60 * 24 (24 hours)
+
+
+- Numerator (1000 * 60 * 60 * 24) → Total milliseconds in one day.
+- Denominator (1000 * 60 * 60) → Total milliseconds in one hour.
+- 1000 * 60 → Converts 60 seconds into milliseconds 
+    [ 1000 * 60 = 60000 milliseconds (which is 1 minute in milliseconds) ]
+
+
+------------------------- Q --------------------------
+1. why face font not working?
+
+---------------------------------------------------
+https://dl.dropboxusercontent.com/scl/fi/nq0rw3y0w3rj3vws9p1oh/7764692-hd_1366_720_25fps.mp4?rlkey=n3j2snvpbb7ubeawvmt7ddmvf&st=ni4e58yr&dl=0?raw=1
+https://dl.dropboxusercontent.com/scl/fi/j7yuq5tywf7ckxhkeo229/8580874-hd_720_1280_30fps.mp4?rlkey=5rsemto2ivy8wr9nmfs3bbmav&st=n8zftq0y&dl=0?raw=1
+https://dl.dropboxusercontent.com/scl/fi/z3ubibunavhxhbbeedylr/5743177-hd_1366_720_25fps.mp4?rlkey=3diaroib5wgmwkw7vttqmfxs0&st=wwv09tzx&dl=0?raw=1
+https://dl.dropboxusercontent.com/scl/fi/7f5sfvtodwp3e7y362yaz/5520097-hd_720_1280_30fps.mp4?rlkey=kisafjlk2z08kafoiuoka1dsl&st=4e4hcbsc&dl=0?raw=1

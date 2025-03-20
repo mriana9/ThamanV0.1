@@ -1,0 +1,356 @@
+/* For small screens  */
+@media (max-width: 576px) {
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .lg-navbar-list,
+  .navbar {
+    display: none !important;
+  }
+
+  .sm-navbar {
+    display: block;
+  }
+
+  .setting-offcanvas {
+    width: 80vw;
+    left: -79vw;
+  }
+
+  .hero-section .swiper-slide .content h3 {
+    font-size: 24px;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-sm-6,
+  .col-lg-2.col-sm-6,
+  .col-lg-3.col-sm-6 {
+    max-width: 50%;
+  }
+
+  .category-gallery .img-box {
+    height: 340px;
+  }
+
+  .category-gallery video {
+    position: absolute;
+    width: 120%;
+    top: 0;
+    left: 0;
+  }
+
+  .category-gallery .img-box .category-info {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .category-gallery .video-box .title {
+    font-size: 22px;
+  }
+
+  .category-cards .card-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .master-banner .banner-box {
+    height: 250px;
+  }
+
+  .sub-banner-box {
+    margin-top: 10px !important;
+  }
+
+  .our-services .right-side {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .our-services .box-image {
+    height: 300px;
+  }
+
+  .featured-products .featured-card {
+    height: 200px;
+  }
+
+  .trending-products .video-banner {
+    height: 180px;
+  }
+
+  .trending-products .info p,
+  .trending-products .info h3 {
+    font-size: 14px !important;
+  }
+
+  .our-services .right-side .our-services-cards {
+    position: static !important;
+  }
+
+  .video-banner {
+    height: 250px;
+  }
+
+  .video-banner .info {
+    width: 90%;
+  }
+
+  .video-banner .info h3 {
+    font-size: 24px;
+  }
+
+  .video-banner .info p {
+    font-size: 18px;
+  }
+
+  .products-slider-video {
+    display: none;
+  }
+
+  .products-slider {
+    max-width: 98vw;
+    overflow: hidden;
+    margin: auto 20px;
+  }
+
+  .summer-offers-2 .container-fluid {
+    height: 40vh;
+  }
+
+  .summer-offers-2 .image {
+    height: 220px;
+    width: 40vw;
+  }
+
+  .summer-offers-2 .info {
+    width: 60vw;
+    height: 300px;
+    padding: 10px;
+    text-wrap: wrap;
+  }
+
+  .summer-offers-2 .info div {
+    width: 95%;
+  }
+
+  .summer-offers-2 .info h3 {
+    font-size: 16px;
+  }
+
+  .summer-offers-2 .info p {
+    font-size: 14px;
+  }
+
+  .slider-banner-box h3 {
+    font-size: 20px !important;
+  }
+
+  .slider-banner-box img {
+    height: 250px;
+  }
+
+  .slider-banner-box {
+    position: relative;
+  }
+
+  .slider-banner-box .info {
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%) !important;
+  }
+
+  .products-slider {
+    height: max-content;
+  }
+
+  .product-banner .image-box.h-75 {
+    min-height: 35vh !important;
+  }
+  .product-banner .image-box.h-50 {
+    min-height: 25vh !important;
+  }
+  .product-banner .image-box.h-25 {
+    min-height: 15vh !important;
+  }
+  .gallery-banner .gallery-banner-box.h-75 {
+    height: 35vh !important;
+  }
+
+  .products-tabs .products-tabs-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products-tabs .tab-image {
+    transform: translate(0);
+    height: 200px;
+  }
+}
+
+/* For medium screens */
+@media (min-width: 577px) and (max-width: 768px) {
+  .lg-navbar-list,
+  .navbar {
+    display: none !important;
+  }
+
+  .sm-navbar {
+    display: block;
+  }
+
+  .setting-offcanvas {
+    width: 80vw;
+    left: -79.9vw;
+  }
+
+  .setting {
+    top: 40vh !important;
+  }
+
+  .our-services .right-side {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .our-services .right-side .our-services-cards {
+    position: static !important;
+  }
+
+  .products-slider-video {
+    display: none;
+  }
+
+  .summer-offers-2 .info h3 {
+    font-size: 18px;
+  }
+
+  .summer-offers-2 .info p {
+    font-size: 14px;
+  }
+
+  .summer-offers-2 .info {
+    height: max-content;
+  }
+
+  .summer-offers-2 .image {
+    height: 250px;
+  }
+
+  .slider-banner-box {
+    height: 200px;
+  }
+
+  .slider-banner-box .info button {
+    padding-bottom: 40px !important;
+  }
+  .gallery-banner .gallery-banner-box.h-75 {
+    height: 35vh !important;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .slider-banner-box h3 {
+    font-size: 16px !important;
+  }
+  .summer-offers-2 .info h3 {
+    font-size: 18px;
+  }
+
+  .summer-offers-2 .info p {
+    font-size: 14px;
+  }
+}
+
+/* For large screens */
+@media (min-width: 769px) and (max-width: 1000px) {
+  .lg-navbar-list,
+  .navbar {
+    display: none !important;
+  }
+
+  .setting-offcanvas {
+    width: 60vw;
+    left: -59.9vw;
+  }
+
+  .summer-offers-2 .info h3 {
+    font-size: 15px;
+  }
+
+  .summer-offers-2 .info p {
+    font-size: 14px;
+  }
+
+  .products-slider {
+    height: max-content;
+  }
+
+  .products-slider .products-slider-video {
+    display: none;
+  }
+}
+
+/* For extra-large screens */
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .lg-navbar-list,
+  .navbar {
+    display: none !important;
+  }
+
+  .sm-navbar {
+    display: block;
+  }
+
+  .setting-offcanvas {
+    width: 30vw;
+  }
+
+  .products-slider {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .summer-offers-2 .container-fluid {
+    height: 60vh;
+  }
+
+  .menu-bar-offcanvas-overlay {
+    display: none;
+  }
+
+  .setting-offcanvas {
+    width: 30vw;
+  }
+
+  .products-slider {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .products-slider {
+    height: 82vh !important;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .sm-navbar {
+    display: none;
+  }
+}
